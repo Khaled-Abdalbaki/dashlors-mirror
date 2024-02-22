@@ -29,9 +29,4 @@ updownioRecipients:
   - email:123456
   - email:789987
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: https://accounts.legitbee.lib-testing.com/login
