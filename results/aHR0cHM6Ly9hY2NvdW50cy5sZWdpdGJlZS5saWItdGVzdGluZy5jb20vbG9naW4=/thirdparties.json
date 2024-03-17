@@ -30,7 +30,7 @@
     },
     {
       "type": "crisp",
-      "url": "https://client.crisp.chat/settings/website/1d8f6f1f-645c-4913-a328-cf92e0857415/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2024-2-10-0-40",
+      "url": "https://client.crisp.chat/settings/website/1d8f6f1f-645c-4913-a328-cf92e0857415/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2024-2-17-0-40",
       "details": {
         "id": "crisp",
         "message": "Ensure your TOS notify the CRISP usage"
@@ -38,7 +38,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://matomo.legitbee.com/matomo.php?action_name=Legitbee&idsite=3&rec=1&r=416005&h=0&m=40&s=34&url=https%3A%2F%2Faccounts.legitbee.lib-testing.com%2Flogin&_id=19c561f8a6517fd7&_idn=1&send_image=0&_refts=0&pv_id=IOuQA6&pf_net=200&pf_srv=143&pf_tfr=1&pf_dm1=22&pf_dm2=498&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+      "url": "https://matomo.legitbee.com/matomo.php?action_name=Legitbee&idsite=3&rec=1&r=335061&h=0&m=40&s=38&url=https%3A%2F%2Faccounts.legitbee.lib-testing.com%2Flogin&_id=d9bb5e75a608fb60&_idn=1&send_image=0&_refts=0&pv_id=e3aPhX&pf_net=332&pf_srv=201&pf_tfr=1&pf_dm1=20&pf_dm2=858&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     },
     {
       "type": "crisp",
@@ -63,10 +63,10 @@
     "content-encoding": "gzip",
     "content-security-policy": "base-uri 'none'; child-src 'none'; connect-src 'self' https://api.accounts.legitbee.lib-testing.com https://api.legitbee.lib-testing.com https://matomo.legitbee.com *.crisp.chat wss://*.crisp.chat; default-src 'self'; font-src 'self' *.crisp.chat; form-action 'self'; frame-ancestors 'none'; frame-src 'self'; img-src 'self' data: *.crisp.chat *.googleapis.com; manifest-src 'self'; media-src 'self' data:; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.pendo.io *.legitbee.com *.crisp.chat; style-src 'self' 'unsafe-inline' *.crisp.chat *.googleapis.com; worker-src 'self';",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Mar 2024 00:40:33 GMT",
+    "date": "Sun, 17 Mar 2024 00:40:36 GMT",
     "etag": "\"dmzvs5np1yo04\"",
     "set-cookie": "signupSession=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT",
-    "strict-transport-security": "max-age=15724800; includeSubDomains",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-powered-by": "Next.js"
   },
