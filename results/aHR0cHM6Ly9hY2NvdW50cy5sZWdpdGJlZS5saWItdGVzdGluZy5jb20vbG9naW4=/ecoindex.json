@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://accounts.legitbee.lib-testing.com/login",
-        "size": 748.716,
+        "size": 748.658,
         "nodes": 141,
         "requests": 45,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-31 00:43:33.175688",
+        "date": "2024-04-07 00:43:26.752695",
         "page_type": null
     }
 ]
