@@ -63,7 +63,7 @@
     "http": {
       "url": "https://accounts.legitbee.lib-testing.com/login",
       "algorithm_version": 3,
-      "end_time": "Sun, 31 Mar 2024 00:46:09 GMT",
+      "end_time": "Sun, 07 Apr 2024 00:45:53 GMT",
       "grade": "B",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -72,7 +72,7 @@
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 31 Mar 2024 00:46:07 GMT",
+        "Date": "Sun, 07 Apr 2024 00:45:51 GMT",
         "ETag": "\"dmzvs5np1yo04\"",
         "Set-Cookie": "signupSession=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
@@ -81,9 +81,9 @@
         "X-Powered-By": "Next.js",
         "content-security-policy": "base-uri 'none'; child-src 'none'; connect-src 'self' https://api.accounts.legitbee.lib-testing.com https://api.legitbee.lib-testing.com https://matomo.legitbee.com *.crisp.chat wss://*.crisp.chat; default-src 'self'; font-src 'self' *.crisp.chat; form-action 'self'; frame-ancestors 'none'; frame-src 'self'; img-src 'self' data: *.crisp.chat *.googleapis.com; manifest-src 'self'; media-src 'self' data:; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.pendo.io *.legitbee.com *.crisp.chat; style-src 'self' 'unsafe-inline' *.crisp.chat *.googleapis.com; worker-src 'self';"
       },
-      "scan_id": 49490920,
+      "scan_id": 49759930,
       "score": 75,
-      "start_time": "Sun, 31 Mar 2024 00:46:05 GMT",
+      "start_time": "Sun, 07 Apr 2024 00:45:49 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 2,
@@ -102,19 +102,19 @@
                 "'none'"
               ],
               "connect-src": [
-                "https://matomo.legitbee.com",
-                "https://api.legitbee.lib-testing.com",
-                "'self'",
-                "https://api.accounts.legitbee.lib-testing.com",
+                "*.crisp.chat",
                 "wss://*.crisp.chat",
-                "*.crisp.chat"
+                "'self'",
+                "https://matomo.legitbee.com",
+                "https://api.accounts.legitbee.lib-testing.com",
+                "https://api.legitbee.lib-testing.com"
               ],
               "default-src": [
                 "'self'"
               ],
               "font-src": [
-                "*.crisp.chat",
-                "'self'"
+                "'self'",
+                "*.crisp.chat"
               ],
               "form-action": [
                 "'self'"
@@ -126,34 +126,34 @@
                 "'self'"
               ],
               "img-src": [
-                "*.googleapis.com",
                 "data:",
+                "'self'",
                 "*.crisp.chat",
-                "'self'"
+                "*.googleapis.com"
               ],
               "manifest-src": [
                 "'self'"
               ],
               "media-src": [
-                "data:",
-                "'self'"
+                "'self'",
+                "data:"
               ],
               "object-src": [
                 "'none'"
               ],
               "script-src": [
+                "'unsafe-eval'",
+                "*.legitbee.com",
+                "*.crisp.chat",
                 "*.pendo.io",
                 "'self'",
-                "*.legitbee.com",
-                "'unsafe-inline'",
-                "'unsafe-eval'",
-                "*.crisp.chat"
+                "'unsafe-inline'"
               ],
               "style-src": [
-                "*.googleapis.com",
+                "'self'",
                 "*.crisp.chat",
                 "'unsafe-inline'",
-                "'self'"
+                "*.googleapis.com"
               ],
               "worker-src": [
                 "'self'"
@@ -664,7 +664,7 @@
         "ip": "accounts.legitbee.lib-testing.com/51.159.9.39",
         "port": "443",
         "severity": "OK",
-        "finding": "79 >= 30 days"
+        "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -818,14 +818,14 @@
         "ip": "accounts.legitbee.lib-testing.com/51.159.9.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "accounts.legitbee.lib-testing.com/51.159.9.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "1711846020"
+        "finding": "1712450779"
       },
       {
         "id": "HSTS_time",
@@ -1395,7 +1395,7 @@
         "ip": "accounts.legitbee.lib-testing.com/51.159.9.39",
         "port": "443",
         "severity": "INFO",
-        "finding": "85"
+        "finding": "50"
       }
     ],
     "thirdparties": {
@@ -1430,7 +1430,7 @@
         },
         {
           "type": "crisp",
-          "url": "https://client.crisp.chat/settings/website/1d8f6f1f-645c-4913-a328-cf92e0857415/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2024-2-31-0-42",
+          "url": "https://client.crisp.chat/settings/website/1d8f6f1f-645c-4913-a328-cf92e0857415/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2024-3-7-0-42",
           "details": {
             "id": "crisp",
             "message": "Ensure your TOS notify the CRISP usage"
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "unknown",
-          "url": "https://matomo.legitbee.com/matomo.php?action_name=Legitbee&idsite=3&rec=1&r=977496&h=0&m=42&s=30&url=https%3A%2F%2Faccounts.legitbee.lib-testing.com%2Flogin&_id=2f7899f99544ec0d&_idn=1&send_image=0&_refts=0&pv_id=xhcLwn&pf_net=243&pf_srv=207&pf_tfr=2&pf_dm1=25&pf_dm2=600&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
+          "url": "https://matomo.legitbee.com/matomo.php?action_name=Legitbee&idsite=3&rec=1&r=935207&h=0&m=42&s=24&url=https%3A%2F%2Faccounts.legitbee.lib-testing.com%2Flogin&_id=8898fccef7a346f8&_idn=1&send_image=0&_refts=0&pv_id=88wQZw&pf_net=208&pf_srv=214&pf_tfr=1&pf_dm1=19&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
         },
         {
           "type": "crisp",
@@ -1457,13 +1457,44 @@
           }
         }
       ],
-      "cookies": [],
+      "cookies": [
+        {
+          "name": "_pk_ses.3.c337",
+          "value": "1",
+          "domain": "accounts.legitbee.lib-testing.com",
+          "path": "/",
+          "expires": 1712452344,
+          "size": 15,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "sameSite": "Lax",
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        },
+        {
+          "name": "_pk_id.3.c337",
+          "value": "8898fccef7a346f8.1712450545.",
+          "domain": "accounts.legitbee.lib-testing.com",
+          "path": "/",
+          "expires": 1746405745,
+          "size": 41,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "sameSite": "Lax",
+          "sameParty": false,
+          "sourceScheme": "Secure",
+          "sourcePort": 443
+        }
+      ],
       "headers": {
         "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
         "content-encoding": "gzip",
         "content-security-policy": "base-uri 'none'; child-src 'none'; connect-src 'self' https://api.accounts.legitbee.lib-testing.com https://api.legitbee.lib-testing.com https://matomo.legitbee.com *.crisp.chat wss://*.crisp.chat; default-src 'self'; font-src 'self' *.crisp.chat; form-action 'self'; frame-ancestors 'none'; frame-src 'self'; img-src 'self' data: *.crisp.chat *.googleapis.com; manifest-src 'self'; media-src 'self' data:; object-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.pendo.io *.legitbee.com *.crisp.chat; style-src 'self' 'unsafe-inline' *.crisp.chat *.googleapis.com; worker-src 'self';",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 31 Mar 2024 00:42:29 GMT",
+        "date": "Sun, 07 Apr 2024 00:42:23 GMT",
         "etag": "\"dmzvs5np1yo04\"",
         "set-cookie": "signupSession=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT",
         "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
@@ -1908,7 +1939,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 31 Mar 2024 00:45:37",
+      "@generated": "Sun, 7 Apr 2024 00:45:23",
       "site": [
         {
           "@name": "https://accounts.legitbee.lib-testing.com",
@@ -2064,6 +2095,13 @@
               "desc": "<p>Specifies if a navigation request was initiated by a user.</p>"
             },
             {
+              "name": "Storable and Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
+            },
+            {
               "name": "Storable but Non-Cacheable Content",
               "riskcode": "0",
               "confidence": "2",
@@ -2107,7 +2145,7 @@
         "type": "dns",
         "host": "accounts.legitbee.lib-testing.com.",
         "matched-at": "accounts.legitbee.lib-testing.com",
-        "timestamp": "2024-03-31T00:47:54.16238591Z",
+        "timestamp": "2024-04-07T00:46:59.430863452Z",
         "matcher-status": true
       },
       {
@@ -2138,7 +2176,7 @@
           "contact@legitbee.com"
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:48:15.750664423Z",
+        "timestamp": "2024-04-07T00:47:21.316116191Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2176,7 +2214,7 @@
           "ClientSecret\":\"user-client-secret\""
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:01.122448186Z",
+        "timestamp": "2024-04-07T00:47:58.478269493Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2218,7 +2256,7 @@
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:01.122662866Z",
+        "timestamp": "2024-04-07T00:47:58.478475736Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2245,192 +2283,7 @@
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:01.274759834Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://accounts.legitbee.lib-testing.com/login",
-        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
-        "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938187428Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "https://accounts.legitbee.lib-testing.com/login",
-        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
-        "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938235428Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-opener-policy",
-        "type": "http",
-        "host": "https://accounts.legitbee.lib-testing.com/login",
-        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
-        "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938251899Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-content-type-options",
-        "type": "http",
-        "host": "https://accounts.legitbee.lib-testing.com/login",
-        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
-        "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938265925Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://accounts.legitbee.lib-testing.com/login",
-        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
-        "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938281564Z",
+        "timestamp": "2024-04-07T00:47:58.633862777Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2467,7 +2320,7 @@
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938294057Z",
+        "timestamp": "2024-04-07T00:48:11.558739974Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2499,12 +2352,12 @@
             "max-request": 1
           }
         },
-        "matcher-name": "permissions-policy",
+        "matcher-name": "clear-site-data",
         "type": "http",
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938306521Z",
+        "timestamp": "2024-04-07T00:48:11.558801658Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2536,12 +2389,86 @@
             "max-request": 1
           }
         },
-        "matcher-name": "x-frame-options",
+        "matcher-name": "cross-origin-opener-policy",
         "type": "http",
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.938318623Z",
+        "timestamp": "2024-04-07T00:48:11.558824891Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://accounts.legitbee.lib-testing.com/login",
+        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
+        "ip": "51.159.9.39",
+        "timestamp": "2024-04-07T00:48:11.558841943Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://accounts.legitbee.lib-testing.com/login",
+        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
+        "ip": "51.159.9.39",
+        "timestamp": "2024-04-07T00:48:11.55885634Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2578,7 +2505,118 @@
         "host": "https://accounts.legitbee.lib-testing.com/login",
         "matched-at": "https://accounts.legitbee.lib-testing.com/login",
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:49:15.93833294Z",
+        "timestamp": "2024-04-07T00:48:11.558869534Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "https://accounts.legitbee.lib-testing.com/login",
+        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
+        "ip": "51.159.9.39",
+        "timestamp": "2024-04-07T00:48:11.558883049Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "https://accounts.legitbee.lib-testing.com/login",
+        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
+        "ip": "51.159.9.39",
+        "timestamp": "2024-04-07T00:48:11.558895452Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-content-type-options",
+        "type": "http",
+        "host": "https://accounts.legitbee.lib-testing.com/login",
+        "matched-at": "https://accounts.legitbee.lib-testing.com/login",
+        "ip": "51.159.9.39",
+        "timestamp": "2024-04-07T00:48:11.558907915Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://accounts.legitbee.lib-testing.com/login'",
         "matcher-status": true
       },
@@ -2609,7 +2647,7 @@
           "Let's Encrypt"
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:50:31.302926633Z",
+        "timestamp": "2024-04-07T00:49:13.159030008Z",
         "matcher-status": true
       },
       {
@@ -2639,7 +2677,7 @@
           "accounts.legitbee.lib-testing.com"
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:50:31.303054492Z",
+        "timestamp": "2024-04-07T00:49:13.159211557Z",
         "matcher-status": true
       },
       {
@@ -2670,7 +2708,7 @@
           "tls12"
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:50:33.034729633Z",
+        "timestamp": "2024-04-07T00:49:14.637351276Z",
         "matcher-status": true
       },
       {
@@ -2701,7 +2739,7 @@
           "tls13"
         ],
         "ip": "51.159.9.39",
-        "timestamp": "2024-03-31T00:50:33.265931811Z",
+        "timestamp": "2024-04-07T00:49:14.861551189Z",
         "matcher-status": true
       }
     ],
@@ -2709,7 +2747,7 @@
       {
         "requestedUrl": "https://accounts.legitbee.lib-testing.com/login",
         "finalUrl": "https://accounts.legitbee.lib-testing.com/login",
-        "fetchTime": "2024-03-31T00:45:53.329Z",
+        "fetchTime": "2024-04-07T00:45:38.329Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2772,53 +2810,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4831,
+            "numericValue": 4778,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1282,
-                  "firstMeaningfulPaint": 1282,
-                  "largestContentfulPaint": 1282,
-                  "interactive": 4831,
-                  "speedIndex": 2664,
-                  "totalBlockingTime": 246,
-                  "maxPotentialFID": 153,
+                  "firstContentfulPaint": 1202,
+                  "firstMeaningfulPaint": 1202,
+                  "largestContentfulPaint": 1250,
+                  "interactive": 4778,
+                  "speedIndex": 2446,
+                  "totalBlockingTime": 146,
+                  "maxPotentialFID": 133,
                   "cumulativeLayoutShift": 0.05403530799018012,
                   "cumulativeLayoutShiftMainFrame": 0.05403530799018012,
                   "totalCumulativeLayoutShift": 0.05403530799018012,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 437920067,
+                  "observedTimeOriginTs": 377053480,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 437920067,
-                  "observedFirstPaint": 698,
-                  "observedFirstPaintTs": 438617865,
-                  "observedFirstContentfulPaint": 698,
-                  "observedFirstContentfulPaintTs": 438617865,
-                  "observedFirstContentfulPaintAllFrames": 698,
-                  "observedFirstContentfulPaintAllFramesTs": 438617865,
-                  "observedFirstMeaningfulPaint": 698,
-                  "observedFirstMeaningfulPaintTs": 438617865,
-                  "observedLargestContentfulPaint": 698,
-                  "observedLargestContentfulPaintTs": 438617865,
-                  "observedLargestContentfulPaintAllFrames": 698,
-                  "observedLargestContentfulPaintAllFramesTs": 438617865,
-                  "observedTraceEnd": 3995,
-                  "observedTraceEndTs": 441915468,
-                  "observedLoad": 1687,
-                  "observedLoadTs": 439607317,
-                  "observedDomContentLoaded": 1060,
-                  "observedDomContentLoadedTs": 438980483,
+                  "observedNavigationStartTs": 377053480,
+                  "observedFirstPaint": 563,
+                  "observedFirstPaintTs": 377616427,
+                  "observedFirstContentfulPaint": 563,
+                  "observedFirstContentfulPaintTs": 377616427,
+                  "observedFirstContentfulPaintAllFrames": 563,
+                  "observedFirstContentfulPaintAllFramesTs": 377616427,
+                  "observedFirstMeaningfulPaint": 563,
+                  "observedFirstMeaningfulPaintTs": 377616427,
+                  "observedLargestContentfulPaint": 563,
+                  "observedLargestContentfulPaintTs": 377616427,
+                  "observedLargestContentfulPaintAllFrames": 563,
+                  "observedLargestContentfulPaintAllFramesTs": 377616427,
+                  "observedTraceEnd": 3481,
+                  "observedTraceEndTs": 380534130,
+                  "observedLoad": 870,
+                  "observedLoadTs": 377923132,
+                  "observedDomContentLoaded": 867,
+                  "observedDomContentLoadedTs": 377920332,
                   "observedCumulativeLayoutShift": 0.05403530799018012,
                   "observedCumulativeLayoutShiftMainFrame": 0.05403530799018012,
                   "observedTotalCumulativeLayoutShift": 0.05403530799018012,
-                  "observedFirstVisualChange": 695,
-                  "observedFirstVisualChangeTs": 438615067,
-                  "observedLastVisualChange": 1312,
-                  "observedLastVisualChangeTs": 439232067,
-                  "observedSpeedIndex": 794,
-                  "observedSpeedIndexTs": 438713784
+                  "observedFirstVisualChange": 564,
+                  "observedFirstVisualChangeTs": 377617480,
+                  "observedLastVisualChange": 1181,
+                  "observedLastVisualChangeTs": 378234480,
+                  "observedSpeedIndex": 655,
+                  "observedSpeedIndexTs": 377708224
                 },
                 {
                   "lcpInvalidated": false
@@ -2840,18 +2878,18 @@
                   "numScripts": 23,
                   "numStylesheets": 2,
                   "numFonts": 0,
-                  "numTasks": 476,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 490,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.848,
-                  "throughput": 6972168.089369073,
-                  "maxRtt": 106.20599999999999,
-                  "maxServerLatency": 64.581,
-                  "totalByteWeight": 508662,
-                  "totalTaskTime": 318.11399999999963,
+                  "rtt": 5.458,
+                  "throughput": 8179831.895572235,
+                  "maxRtt": 88.201,
+                  "maxServerLatency": 34.885999999999996,
+                  "totalByteWeight": 508752,
+                  "totalTaskTime": 300.4509999999994,
                   "mainDocumentTransferSize": 6381
                 }
               ]
@@ -2874,7 +2912,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://accounts.legitbee.lib-testing.com/login",
-        "size": 748.716,
+        "size": 748.658,
         "nodes": 141,
         "requests": 45,
         "grade": "B",
@@ -2882,7 +2920,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-31 00:43:33.175688",
+        "date": "2024-04-07 00:43:26.752695",
         "page_type": null
       }
     ],
@@ -2896,8 +2934,8 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2024-06-18T10:57:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "A",
-      "cookiesCount": 0,
+      "cookiesGrade": "B",
+      "cookiesCount": 2,
       "trackersGrade": "C",
       "trackersCount": 8,
       "zapCount": 9,
