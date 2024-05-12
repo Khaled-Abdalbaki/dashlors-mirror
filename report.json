@@ -2758,7 +2758,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 1
+            "score": 0.96
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2940,7 +2940,7 @@
       "trackersCount": 8,
       "zapCount": 9,
       "zapGrade": "D",
-      "lighthouse_performance": 1,
+      "lighthouse_performance": 0.96,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
